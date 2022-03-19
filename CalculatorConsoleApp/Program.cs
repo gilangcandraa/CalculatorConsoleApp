@@ -28,7 +28,7 @@ namespace CalculatorConsoleApp
                 float a = float.Parse(Console.ReadLine());
                 Console.Write("Inputkan nilai b = ");
                 float b = float.Parse(Console.ReadLine());
-                Console.WriteLine("Hasil penambahan" + a + "+" + b + " = " + Penambahan(a, b));
+                Console.WriteLine("Hasil penambahan " + a + "+" + b + " = " + Penambahan(a, b));
             }
 
             else if (x == 2)
