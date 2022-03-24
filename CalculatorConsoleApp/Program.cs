@@ -12,10 +12,10 @@ namespace CalculatorConsoleApp
         {
             Console.Title = "Aplikasi Kalkulator 21.11.4429";
             Console.WriteLine("Pilih Menu Calculator");
-            Console.WriteLine("1. Penambahan");
-            Console.WriteLine("2. Pengurangan");
-            Console.WriteLine("3. Perkalian");
-            Console.WriteLine("4. Pembagian");
+            Console.WriteLine("[1]. Penambahan");
+            Console.WriteLine("[2]. Pengurangan");
+            Console.WriteLine("[3]. Perkalian");
+            Console.WriteLine("[4]. Pembagian");
             Console.Write("\n\nInput menu calculator [1234] : "); 
             int x=int.Parse(Console.ReadLine());
           
